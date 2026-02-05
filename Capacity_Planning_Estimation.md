@@ -3,3 +3,5 @@ we dont completely rely on the original data instead we make copy of the data us
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
+
+work more in estimation problems, take some real  world applications as examples
