@@ -47,3 +47,6 @@ it is a very complex code
         it is a lightweight process
         parallelism ----> dividing the process into multiple threads
     
+# Virtual Memory
+    -> used as a extension of the physical memory
+    -> 
