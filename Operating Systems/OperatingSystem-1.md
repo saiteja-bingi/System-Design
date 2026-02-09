@@ -1,4 +1,5 @@
 user--->Application---->Operating System---->Hardware 
+
 ![alt text](image.png)
 
 everything will interact with the OS to get output via output devices
@@ -28,6 +29,7 @@ bootloader-->loasds the OS and its kernal
 
 
 ![alt text](image-2.png)
+
 1. text--> Code segment (code is stored) (machine code)
 2. data---> constant or global variables are stored 
 3. heap-->malloc ,realloc operations
@@ -51,6 +53,7 @@ states of process?
 
 
 PCB
+
 ![alt text](image-3.png)
 
 new->ready->running->{wait/block}->terminated
@@ -67,11 +70,14 @@ the process which need to run high privieged instructions it should take permiss
 mode bit=1 -->user mode
 
 System Calls-what and why?
+
 ![alt text](image-5.png)
+
 user space----->>kernal space(reserved space)
 
 OS started-->kernal started
 init() is teh first program to run
+
 ![alt text](image-6.png)
 
 sudo is like user level
@@ -86,6 +92,7 @@ parent process is closed but child process is running if it is done by intention
 intentional orphan also called as daemon process
 
 unintentional orphan process are called zombie process
+
 ![alt text](image-8.png)
 
 # Operations on Processes
@@ -111,10 +118,12 @@ unintentional orphan process are called zombie process
     process 1--->memory<----process 2
 
     ## Message passing (mode -2)
+
     ![alt text](image-9.png)
 
     # Threads and multiThreading
     process is heavier one , so a lightweight process is called a thread
+    
     ![alt text](image-10.png)
 
     If it has only one thread:
